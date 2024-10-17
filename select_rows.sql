@@ -1,0 +1,5 @@
+SELECT TOP (10000000) [OrderID]
+      ,[OrderDate]
+      ,[CustomerName]
+      ,[Amount]
+  FROM [TestDB].[dbo].[Orders]
